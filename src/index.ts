@@ -15,9 +15,8 @@ for (i = 0; i < nArray; i++) {
     "en la posicion " + i
   );
 } //ingreso los valores del array
+
 for (i = 0; i < nArray; i++) {
-  let suma = numberArray[i] + resultado;
-  let resultadosuma = suma;
-  resultado = resultadosuma;
+  resultado = numberArray[i] + resultado;
 } //sumo los valores
 console.log("la suma de los valores ingresados al array es: " + resultado);
